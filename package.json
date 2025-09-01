@@ -25,6 +25,7 @@
     "@types/node": "^24.3.0",
     "chai": "^4.5.0",
     "circomlib": "^2.0.5",
+    "dotenv": "^17.2.1",
     "ethers": "^6.15.0",
     "hardhat": "^2.22.8",
     "hardhat-gas-reporter": "^1.0.10",

@@ -2,12 +2,12 @@
 pragma solidity ^0.8.24;
 
 import "@openzeppelin/contracts/access/Ownable.sol";
-import "./Verifier.sol"; // The generated Groth16 verifier
+import "./Verifier.sol"; 
 
 contract PrivateVoting is Ownable {
-    Groth16Verifier public verifier; // Instance of the verifier contract
-    mapping(uint256 => uint256) public proposals; // Proposal ID => Vote count (yes votes)
-    mapping(bytes32 => bool) public usedNullifiers; // Prevent double-voting
+    Groth16Verifier public verifier; 
+    mapping(uint256 => uint256) public proposals; 
+    mapping(bytes32 => bool) public usedNullifiers;
 
     constructor(address _verifier) Ownable(msg.sender) {
         verifier = Groth16Verifier(_verifier);

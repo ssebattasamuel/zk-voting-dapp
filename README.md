@@ -6,6 +6,11 @@ A decentralized, privacy-preserving voting application built on Ethereum using Z
 
 This project demonstrates advanced blockchain concepts like zk-SNARKs for privacy, smart contract verification, and full-stack dApp development. It's designed for DAOs, governance systems, or any secure voting scenario.
 
+## Live Demo
+
+Try the app live: [https://zk-voting-dapp-theta.vercel.app/](https://zk-voting-dapp-theta.vercel.app/)  
+(Connect MetaMask on Holesky testnet with test ETH. Note: This is a testnet deployment—use test accounts only.)
+
 ## Features
 
 - **Privacy via ZKPs**: Votes are verified on-chain without exposing voter identity or choice (using Groth16 proofs).
